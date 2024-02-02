@@ -52,8 +52,6 @@ only 12 red cubes, 13 green cubes, and 14 blue cubes. What is the sum of the
 IDs of those games?
 """
 
-import re
-
 MAX_RED = 12
 MAX_GREEN = 13
 MAX_BLUE = 14
@@ -87,4 +85,3 @@ with open('2-cube-conundrum-input.txt') as input:
         if valid_round:
             result += int(game_number)
     print(result)
-
