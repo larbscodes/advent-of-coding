@@ -1,3 +1,5 @@
+from pprint import pprint
+
 platform = []
 
 with open('14-parabolic-reflector-dish-input.txt') as input:
